@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 import getBillboard from "@/actions/get-billboard";
 import getProducts from "@/actions/get-products";
 import ProductList from "@/components/product-list";
@@ -19,10 +19,12 @@ const HomePage = async () => {
         />
        
         <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
-          <div>
+          {/* <div>
           <h3 className="font-bold text-3xl">How To Get Started</h3>
           <br></br>
-          <h5>Do you ever get frustrated when you have no idea what the best products in today's market are? And is it tedious to go on multiple websites to find links to buy the products?
+
+        
+         <h5>Do you ever get frustrated when you have no idea what the best products in today's market are? And is it tedious to go on multiple websites to find links to buy the products?
             Well, That Girl is here to help! That Girl is an online women's catalogue that is regularly updated and displays the most viral products found on the internet!
             
 
@@ -60,7 +62,8 @@ const HomePage = async () => {
           </h5>
 
 
-          </div>
+          </div> */}
+          
 
           <ProductList title="Featured Products" items={products} />
         </div>
