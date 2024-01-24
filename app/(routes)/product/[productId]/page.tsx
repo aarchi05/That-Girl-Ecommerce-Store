@@ -34,7 +34,7 @@ const ProductPage: React.FC<ProductPageProps> = async ({
             <div className="mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-0">
               {/* <Info data={product} /> */}
               <Info name={product?.name} color={product?.color?.value} brand={product?.brand} isProductPage={false} />
-              hi
+              personalized product descriptions coming soon!
             </div>
           </div>
           <hr className="my-10" />
